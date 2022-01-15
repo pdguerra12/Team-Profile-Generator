@@ -6,7 +6,7 @@ const intern = new Intern(
 	"Notre Dame"
 );
 
-test("testing if we can get the constructor values for the engineer object", () => {
+test("testing if we can get the constructor values for the intern object", () => {
 	expect(intern.name).toBe("Rudy Ruettiger");
 	expect(intern.id).toBe("454545");
 	expect(intern.email).toBe("r.ruettiger@nd.edu");

@@ -10,7 +10,7 @@ test("testing if we can get the constructor values for the engineer object", () 
 	expect(engineer.name).toBe("Tony The Tiger");
 	expect(engineer.id).toBe("64888");
 	expect(engineer.email).toBe("tonythetiger@gmail.com");
-	expect(engineer.githubUsername).toBe("jdeschat");
+	expect(engineer.github).toBe("tttgr8");
 });
 
 test("testing if we can get the name from getName()", () => {
