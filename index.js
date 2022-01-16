@@ -7,7 +7,7 @@ const Intern = require("./lib/Intern.js");
 const generateSite = require("./src/generate-site.js");
 
 const path = require("path");
-const output = path.resolve(__dirname, "output");
+const output = path.resolve(__dirname, "dist");
 const outputPath = path.join(output, "index.html");
 
 const teamMembers = [];
@@ -85,7 +85,7 @@ const promptMenu = () => {
 	return inquirer
 		.prompt([
 			{
-				type: "checkbox",
+				type: "list",
 				name: "menu",
 				message: "Which option you would like to continue with?:",
 				choices: [
